@@ -1,0 +1,98 @@
+body{
+    background-color: #DDFEFC;
+    font-family: 'Overpass Mono', monospace;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+
+}
+
+h3{
+    text-decoration: underline;
+}
+
+h4{
+    text-decoration: underline;
+}
+
+
+.container-item{
+    display: grid;
+    align-content: center;
+    padding: 10px;
+    border: 0.1em solid black ;
+    margin: 10px;
+    border-radius: 13px;
+}
+
+h1{
+    text-align: center;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+.image-item{
+    display: inline-flex;
+    align-content: space-evenly;
+    padding: 10px;
+    margin: 10px;
+    width: 500px;
+}
+
+img{
+    width: 75%;
+}
+li{
+    text-decoration: underline;
+}
+
+code{
+    background: #DDF1EC;
+    border: 1px solid #ddd;
+    border-left: 3px solid #000000;
+    color: #000000;
+    page-break-inside: avoid;
+    font-family: monospace;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 1.6em;
+    max-width: 100%;
+    overflow: auto;
+    padding: 1em 1.5em;
+    display: block;
+    word-wrap: break-word;
+}
+
+a:link {
+    color: darkblue;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited{
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: lightblue;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color: green;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+footer{
+    bottom: 0;
+    align-content: center;
+    margin: 1.6em;
+    padding: 10px;
+    display: block;
+    text-align: center;
+}
